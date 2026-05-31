@@ -139,7 +139,7 @@ catalog:
   lefthook: ^2.1.6
   lodash: ^4.17.23
   lodash.clonedeep: ^4.5.0
-  lucide-vue-next: ^0.577.0
+  lucide-vue-next: ^1.0.0
   medium-zoom: ^1.1.0
   naive-ui: ^2.44.1
   nitropack: ^2.13.4
