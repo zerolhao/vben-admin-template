@@ -4,6 +4,9 @@ import { defineComponent, watch } from 'vue';
 
 import { usePreferences } from '@vben/preferences';
 
+import VxeUIPluginExportXLSX from '@vxe-ui/plugin-export-xlsx';
+import ExcelJS from 'exceljs';
+
 import {
   VxeButton,
   VxeCheckbox,
@@ -104,6 +107,8 @@ export function initVxeTable() {
   // VxeUI.component(VxeTextarea);
   VxeUI.component(VxeTooltip);
   VxeUI.component(VxeUpload);
+
+  VxeUI.use(VxeUIPluginExportXLSX, { ExcelJS });
 
   isInit = true;
 }
